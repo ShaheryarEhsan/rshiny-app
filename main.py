@@ -21,4 +21,4 @@ def predict():
     if model_handle == "Files/train_set.csv.gz":
       return send_file("train_set.csv.gz", as_attachment=True)
     
-
+app.run()
