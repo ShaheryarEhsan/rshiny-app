@@ -1,0 +1,3726 @@
+{
+  "impute_stats": {
+    "impute_log": {
+      "accountbuyingstage6sense__c": "Imputed", 
+      "accountprofilefit6sense__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "annualrevenue": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "city": "Will not imputed (categoric feat, not in impute_cols)", 
+      "company_website_main_domain": "Will not imputed (categoric feat, not in impute_cols)", 
+      "consent_method__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "current_lifecycle_status_age_marketo__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "data_quality_description__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "data_quality_score__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "email_is_free_domain": "Will not imputed (categoric feat, not in impute_cols)", 
+      "email_main_domain": "Will not imputed (categoric feat, not in impute_cols)", 
+      "email_matches_name": "Will not imputed (categoric feat, not in impute_cols)", 
+      "explicit_opt_in__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "flashblade_lead__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "has_vc_funding": "Will not imputed (categoric feat, not in impute_cols)", 
+      "hg_aws__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "hg_kubernetes__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "hg_vendor_list__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "hg_vmware__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "hours_since_last_call__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "industry": "Imputed", 
+      "is_not_past_sla__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "is_past_sla__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "lead_owner_division__c": "There is no unknown val, no need to impute this feature", 
+      "lead_owner_title__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "lead_persona__c": "Imputed", 
+      "lead_source_most_recent__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "lead_source_most_recent_detail__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "lead_status_follow_up_month__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "lead_theater__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leadengagementscore6sense_pstg__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "leadgrade6sense_pstg__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leadprofilefit6sense__c": "Imputed", 
+      "leadsource": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leandata__matched_account_annual_revenue__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "leandata__matched_account_billing_state__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leandata__matched_account_employees__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "leandata__routing_action__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leandata__routing_status__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leandata_account_type__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leandata_cloud_category__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leandata_fy21_vdi_target__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leandata_mdm_segment__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "leandata_p2b_score__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "lifecycle_status__c": "Imputed", 
+      "marketable_lead__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "marketing_lead_grade__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "marketing_touch_tracking__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "marketo_lead_score__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "matched_account_named_target_account__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "matched_account_segment__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "mkto2__original_source_type__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "mkto71_lead_score__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "mkto_si__last_interesting_moment_desc__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "mkto_si__last_interesting_moment_type__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "mkto_si__priority__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "mkto_si__relative_score_value__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "mkto_si__urgency_value__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "mql1__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "mql2__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "mql__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "mql_sla_time__c": "Will not imputed (numerical feature, not in force_categoric_feats, num_unique_vals > 2)", 
+      "owner_is_active__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "sdr1_sla_met__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "segment_temp__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "sled_lead__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "state": "Will not imputed (categoric feat, not in impute_cols)", 
+      "strikeiron_email_hygiene__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "strikeiron_email_statusdescription__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "texcellency__defhc_is_active__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "title": "Will not imputed (categoric feat, not in impute_cols)", 
+      "title_function": "Will not imputed (categoric feat, not in impute_cols)", 
+      "title_level": "Will not imputed (categoric feat, not in impute_cols)", 
+      "to_score__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "unmarketable_reason__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "use_company_email": "Will not imputed (categoric feat, not in impute_cols)", 
+      "within_sla__c": "Will not imputed (categoric feat, not in impute_cols)", 
+      "zipcode_prefix2": "Will not imputed (categoric feat, not in impute_cols)", 
+      "zipcode_prefix3": "Will not imputed (categoric feat, not in impute_cols)"
+    }, 
+    "impute_other_value_log": {
+      "accountbuyingstage6sense__c": "other_rate (0.000000) < other_rate_min (0.000010), will not impute other for this feature", 
+      "industry": "other positive rate vs baseline positive rate (0.994216) is in accepted range [0.800000, 1.050000], will not impute other for this feature", 
+      "lead_owner_division__c": "Imputed", 
+      "lead_persona__c": "Result from calling impute_one_feature:{'lead_persona__c+lead_persona__c': 'There is no unknown val, no need to impute this feature'}", 
+      "leadprofilefit6sense__c": "other_rate (0.000000) < other_rate_min (0.000010), will not impute other for this feature", 
+      "lifecycle_status__c": "Result from calling impute_one_feature:{'lifecycle_status__c+lifecycle_status__c': 'There is no unknown val, no need to impute this feature'}"
+    }, 
+    "imputed_other_value_result_detail": [
+      {
+        "baseline_positive_percent": 1.108, 
+        "feat_name": "lead_owner_division__c", 
+        "num_imputed_items": 61, 
+        "num_items_with_all_vals": 99900, 
+        "num_items_with_other_val_after_imputation": 584, 
+        "num_items_with_other_val_before_imputation": 645, 
+        "other_val_positive_percent_after_imputation": 1.027, 
+        "other_val_positive_percent_before_imputation": 10.388
+      }
+    ], 
+    "imputed_result_detail": [
+      {
+        "baseline_positive_percent": 1.108, 
+        "feat_name": "lifecycle_status__c", 
+        "feat_val": "nan", 
+        "num_imputed_items": 349, 
+        "num_unknown_items_after_imputation": 287, 
+        "num_unknown_items_before_imputation": 636, 
+        "num_unknown_positive_items_after_imputation": 3, 
+        "num_unknown_positive_items_before_imputation": 352, 
+        "target_positive_percent": 1.108, 
+        "unknown_percent_after_imputation": 0.287, 
+        "unknown_percent_before_imputation": 0.636, 
+        "unknown_positive_percent_after_imputation": 1.045, 
+        "unknown_positive_percent_before_imputation": 55.346, 
+        "unknown_val_stats_after_imputation": {
+          "feature_name": "lifecycle_status__c", 
+          "feature_value": "nan", 
+          "num_items": 287, 
+          "num_positive": 3, 
+          "positive_percent": 1.045
+        }, 
+        "unknown_val_stats_before_imputation": {
+          "feature_name": "lifecycle_status__c", 
+          "feature_value": "nan", 
+          "num_items": 636, 
+          "num_positive": 352, 
+          "positive_percent": 55.346
+        }
+      }, 
+      {
+        "baseline_positive_percent": 1.108, 
+        "feat_name": "lead_persona__c", 
+        "feat_val": "nan", 
+        "num_imputed_items": 347, 
+        "num_unknown_items_after_imputation": 538, 
+        "num_unknown_items_before_imputation": 885, 
+        "num_unknown_positive_items_after_imputation": 6, 
+        "num_unknown_positive_items_before_imputation": 353, 
+        "target_positive_percent": 1.108, 
+        "unknown_percent_after_imputation": 0.538, 
+        "unknown_percent_before_imputation": 0.885, 
+        "unknown_positive_percent_after_imputation": 1.115, 
+        "unknown_positive_percent_before_imputation": 39.887, 
+        "unknown_val_stats_after_imputation": {
+          "feature_name": "lead_persona__c", 
+          "feature_value": "nan", 
+          "num_items": 538, 
+          "num_positive": 6, 
+          "positive_percent": 1.115
+        }, 
+        "unknown_val_stats_before_imputation": {
+          "feature_name": "lead_persona__c", 
+          "feature_value": "nan", 
+          "num_items": 885, 
+          "num_positive": 353, 
+          "positive_percent": 39.887
+        }
+      }, 
+      {
+        "baseline_positive_percent": 1.108, 
+        "feat_name": "accountbuyingstage6sense__c", 
+        "feat_val": "nan", 
+        "num_imputed_items": 504, 
+        "num_unknown_items_after_imputation": 13908, 
+        "num_unknown_items_before_imputation": 14412, 
+        "num_unknown_positive_items_after_imputation": 154, 
+        "num_unknown_positive_items_before_imputation": 658, 
+        "target_positive_percent": 1.108, 
+        "unknown_percent_after_imputation": 13.908, 
+        "unknown_percent_before_imputation": 14.412, 
+        "unknown_positive_percent_after_imputation": 1.107, 
+        "unknown_positive_percent_before_imputation": 4.566, 
+        "unknown_val_stats_after_imputation": {
+          "feature_name": "accountbuyingstage6sense__c", 
+          "feature_value": "nan", 
+          "num_items": 13908, 
+          "num_positive": 154, 
+          "positive_percent": 1.107
+        }, 
+        "unknown_val_stats_before_imputation": {
+          "feature_name": "accountbuyingstage6sense__c", 
+          "feature_value": "nan", 
+          "num_items": 14412, 
+          "num_positive": 658, 
+          "positive_percent": 4.566
+        }
+      }, 
+      {
+        "baseline_positive_percent": 1.108, 
+        "feat_name": "leadprofilefit6sense__c", 
+        "feat_val": "nan", 
+        "num_imputed_items": 504, 
+        "num_unknown_items_after_imputation": 13908, 
+        "num_unknown_items_before_imputation": 14412, 
+        "num_unknown_positive_items_after_imputation": 154, 
+        "num_unknown_positive_items_before_imputation": 658, 
+        "target_positive_percent": 1.108, 
+        "unknown_percent_after_imputation": 13.908, 
+        "unknown_percent_before_imputation": 14.412, 
+        "unknown_positive_percent_after_imputation": 1.107, 
+        "unknown_positive_percent_before_imputation": 4.566, 
+        "unknown_val_stats_after_imputation": {
+          "feature_name": "leadprofilefit6sense__c", 
+          "feature_value": "nan", 
+          "num_items": 13908, 
+          "num_positive": 154, 
+          "positive_percent": 1.107
+        }, 
+        "unknown_val_stats_before_imputation": {
+          "feature_name": "leadprofilefit6sense__c", 
+          "feature_value": "nan", 
+          "num_items": 14412, 
+          "num_positive": 658, 
+          "positive_percent": 4.566
+        }
+      }, 
+      {
+        "baseline_positive_percent": 1.108, 
+        "feat_name": "industry", 
+        "feat_val": "nan", 
+        "num_imputed_items": 451, 
+        "num_unknown_items_after_imputation": 22359, 
+        "num_unknown_items_before_imputation": 22810, 
+        "num_unknown_positive_items_after_imputation": 248, 
+        "num_unknown_positive_items_before_imputation": 699, 
+        "target_positive_percent": 1.108, 
+        "unknown_percent_after_imputation": 22.359, 
+        "unknown_percent_before_imputation": 22.81, 
+        "unknown_positive_percent_after_imputation": 1.109, 
+        "unknown_positive_percent_before_imputation": 3.064, 
+        "unknown_val_stats_after_imputation": {
+          "feature_name": "industry", 
+          "feature_value": "nan", 
+          "num_items": 22359, 
+          "num_positive": 248, 
+          "positive_percent": 1.109
+        }, 
+        "unknown_val_stats_before_imputation": {
+          "feature_name": "industry", 
+          "feature_value": "nan", 
+          "num_items": 22810, 
+          "num_positive": 699, 
+          "positive_percent": 3.064
+        }
+      }
+    ], 
+    "imputed_result_summary": [
+      "feat_name,unknown_percent_before_imputation,unknown_percent_after_imputation,unknown_positive_percent_before_imputation,unknown_positive_percent_after_imputation,target_positive_percent,num_unknown_items_before_imputation,num_unknown_items_after_imputation,num_imputed_items,num_unknown_positive_items_before_imputation,num_unknown_positive_items_after_imputation", 
+      "lifecycle_status__c,0.636,0.287,55.346,1.045,1.108,636,287,349,352,3", 
+      "lead_persona__c,0.885,0.538,39.887,1.115,1.108,885,538,347,353,6", 
+      "accountbuyingstage6sense__c,14.412,13.908,4.566,1.107,1.108,14412,13908,504,658,154", 
+      "leadprofilefit6sense__c,14.412,13.908,4.566,1.107,1.108,14412,13908,504,658,154", 
+      "industry,22.81,22.359,3.064,1.109,1.108,22810,22359,451,699,248"
+    ], 
+    "num_imputed_feats": 5, 
+    "selected_feats": [
+      "annualrevenue", 
+      "email_is_free_domain", 
+      "mkto_si__last_interesting_moment_type__c", 
+      "lead_theater__c", 
+      "use_company_email", 
+      "mkto_si__priority__c", 
+      "leadsource", 
+      "mkto71_lead_score__c", 
+      "mql__c", 
+      "title", 
+      "is_not_past_sla__c", 
+      "within_sla__c", 
+      "has_vc_funding", 
+      "leandata__matched_account_annual_revenue__c", 
+      "marketable_lead__c", 
+      "mkto_si__relative_score_value__c", 
+      "lifecycle_status__c", 
+      "accountprofilefit6sense__c", 
+      "is_past_sla__c", 
+      "unmarketable_reason__c", 
+      "mql_sla_time__c", 
+      "email_matches_name", 
+      "lead_persona__c", 
+      "leandata_fy21_vdi_target__c", 
+      "title_function", 
+      "owner_is_active__c", 
+      "leandata_cloud_category__c", 
+      "texcellency__defhc_is_active__c", 
+      "strikeiron_email_hygiene__c", 
+      "accountbuyingstage6sense__c", 
+      "state", 
+      "lead_source_most_recent__c", 
+      "mql1__c", 
+      "leadprofilefit6sense__c", 
+      "marketing_touch_tracking__c", 
+      "mkto_si__last_interesting_moment_desc__c", 
+      "leandata__matched_account_billing_state__c", 
+      "marketing_lead_grade__c", 
+      "industry", 
+      "leandata_mdm_segment__c", 
+      "marketo_lead_score__c", 
+      "leandata__matched_account_employees__c", 
+      "leandata_account_type__c", 
+      "mkto_si__urgency_value__c", 
+      "current_lifecycle_status_age_marketo__c", 
+      "zipcode_prefix2", 
+      "zipcode_prefix3", 
+      "lead_owner_division__c", 
+      "matched_account_segment__c", 
+      "leadgrade6sense_pstg__c", 
+      "leandata__routing_status__c", 
+      "city", 
+      "title_level", 
+      "hg_kubernetes__c", 
+      "lead_owner_title__c", 
+      "hg_vmware__c", 
+      "company_website_main_domain", 
+      "flashblade_lead__c", 
+      "leandata_p2b_score__c", 
+      "leadengagementscore6sense_pstg__c", 
+      "data_quality_description__c", 
+      "email_main_domain", 
+      "hg_vendor_list__c", 
+      "explicit_opt_in__c", 
+      "hg_aws__c", 
+      "strikeiron_email_statusdescription__c", 
+      "sled_lead__c", 
+      "mql2__c", 
+      "data_quality_score__c", 
+      "lead_status_follow_up_month__c", 
+      "sdr1_sla_met__c", 
+      "to_score__c", 
+      "mkto2__original_source_type__c", 
+      "consent_method__c", 
+      "matched_account_named_target_account__c", 
+      "hours_since_last_call__c", 
+      "lead_source_most_recent_detail__c", 
+      "segment_temp__c", 
+      "leandata__routing_action__c", 
+      "positive"
+    ]
+  }, 
+  "num_scored_objects_from_table": 50000, 
+  "scored_data_stats": {
+    "avg_score": 70.1, 
+    "max_record_date": "2021-12-06", 
+    "max_score": 100.0, 
+    "min_record_date": "2021-05-18", 
+    "min_score": 4.0, 
+    "num_items": 50000, 
+    "num_scored_items": 50000, 
+    "num_unique_scores": 97, 
+    "record_date_col": "createddate", 
+    "score_bucket_stats": "{0: 165, 1: 1939, 2: 3522, 3: 3105, 4: 3425, 5: 3759, 6: 4478, 7: 5360, 8: 12170, 9: 12077}", 
+    "scoring_date": "2021-12-06 15:52:57"
+  }, 
+  "train_model_params": {
+    "company_source_key": "purestorageinc:90E159", 
+    "date_col": "createddate", 
+    "date_from": "2020-01-01", 
+    "date_to": "2021-10-31", 
+    "derive_stats_for_all_users": "true", 
+    "holdout_set_percent": "25", 
+    "holdout_set_strategy": "random", 
+    "ignore_cols": [
+      "leandata__routing_action__c", 
+      "leandata__routing_status__c", 
+      "hours_since_last_call__c", 
+      "lead_theater__c", 
+      "owner_is_active__c", 
+      "accountprofilefit6sense__c", 
+      "lead_source_most_recent__c", 
+      "unmarketable_reason__c", 
+      "data_quality_description__c", 
+      "leandata_fy21_vdi_target__c", 
+      "hg_aws__c", 
+      "flashblade_lead__c", 
+      "is_not_past_sla__c", 
+      "sdr1_sla_met__c", 
+      "hg_kubernetes__c", 
+      "phone_area_code", 
+      "hg_vmware__c", 
+      "hg_vendor_list__c", 
+      "zipcode_prefix2", 
+      "mql1__c", 
+      "strikeiron_email_hygiene__c", 
+      "has_vc_funding", 
+      "email_is_free_domain", 
+      "matched_account_segment__c", 
+      "region__c", 
+      "strikeiron_email_statusdescription__c", 
+      "within_sla__c", 
+      "leandata_mdm_segment__c", 
+      "explicit_opt_in__c", 
+      "mkto_si__last_interesting_moment_type__c", 
+      "marketable_lead__c", 
+      "to_score__c", 
+      "lead_owner_title__c", 
+      "consent_method__c"
+    ], 
+    "impute_cols": [
+      "lifecycle_status__c", 
+      "leadprofilefit6sense__c", 
+      "accountbuyingstage6sense__c", 
+      "lead_owner_division__c", 
+      "lead_persona__c", 
+      "industry"
+    ], 
+    "impute_data": "False", 
+    "model_name": "purestorageinc:90E159_Lead_Qualified_Model", 
+    "model_type": "lead_close", 
+    "orig_table": "sf_lead", 
+    "prev_train_set_model_handle": "20211201_145753_LeadCloseModel_20aca3fb2300", 
+    "product_type": "playbook", 
+    "stats_type": "train_model", 
+    "subset_queries": [
+      "select * from lead where lead_owner_theater__c = 'EMEA'"
+    ], 
+    "target_col": "status", 
+    "target_table": "sf_lead", 
+    "target_val": "Qualified", 
+    "use_db_data_file": "true", 
+    "use_prev_built_train_set": "true"
+  }, 
+  "train_set_date_from": "2020-01-01", 
+  "train_set_date_to": "2021-10-31", 
+  "trained_model_stats": {
+    "best_hyperparameters": {
+      "model__bootstrap": true, 
+      "model__criterion": "entropy", 
+      "model__max_depth": 10, 
+      "model__max_features": "auto", 
+      "model__min_samples_leaf": 5, 
+      "model__n_estimators": 50, 
+      "preprocess__p_dropna__threshold": 0.99, 
+      "preprocess__p_featureunion__categoric__c_binning__k": 100, 
+      "preprocess__p_featureunion__categoric__c_binning__p": 0.01, 
+      "preprocess__p_featureunion__categoric__c_mi_selection__lower": 0.0001, 
+      "preprocess__p_featureunion__categoric__c_mi_selection__upper": 0.8, 
+      "preprocess__p_featureunion__numeric__n_anova_filter__lower": 0, 
+      "preprocess__p_featureunion__numeric__n_anova_filter__upper": 0.9
+    }, 
+    "eval": {
+      "accuracy": 0.0116, 
+      "auc": 0.9765134177144531, 
+      "bin_lifts": [
+        1.0, 
+        1.1111111111111112, 
+        1.2500000000000002, 
+        1.4236453201970445, 
+        1.6609195402298853, 
+        1.9793103448275864, 
+        2.4568965517241383, 
+        3.241379310344828, 
+        4.810344827586207, 
+        9.517241379310345
+      ], 
+      "class_report": "             precision    recall  f1-score   support\n\n          0       0.00      0.00      0.00     24710\n          1       0.01      1.00      0.02       290\n\navg / total       0.00      0.01      0.00     25000\n", 
+      "confusion": [
+        [
+          0, 
+          24710
+        ], 
+        [
+          0, 
+          290
+        ]
+      ], 
+      "counts": [
+        2185, 
+        2508, 
+        2786, 
+        2200, 
+        2464, 
+        2752, 
+        2237, 
+        2610, 
+        2465, 
+        2793
+      ], 
+      "f1": 0.022933965994464213, 
+      "loss": 0.9765134177144531, 
+      "model_threshold": 0.0, 
+      "neg_hist": [
+        2185, 
+        2508, 
+        2785, 
+        2200, 
+        2462, 
+        2750, 
+        2235, 
+        2607, 
+        2463, 
+        2515
+      ], 
+      "normed_counts": [
+        0.0874, 
+        0.10032, 
+        0.11144, 
+        0.088, 
+        0.09856, 
+        0.11008, 
+        0.08948, 
+        0.1044, 
+        0.0986, 
+        0.11172
+      ], 
+      "overfit": 0, 
+      "passed": true, 
+      "pos_hist": [
+        0, 
+        0, 
+        1, 
+        0, 
+        2, 
+        2, 
+        2, 
+        3, 
+        2, 
+        278
+      ], 
+      "pred_mean": 0.5072656000000001, 
+      "train_loss": NaN
+    }, 
+    "feat_importances": [
+      [
+        0.07403898244332593, 
+        "marketing_lead_grade__c"
+      ], 
+      [
+        0.061176104394444535, 
+        "leadengagementscore6sense_pstg__c"
+      ], 
+      [
+        0.04781046792641991, 
+        [
+          "leadgrade6sense_pstg__c", 
+          "D"
+        ]
+      ], 
+      [
+        0.04235309632065029, 
+        [
+          "lifecycle_status__c", 
+          "SAL"
+        ]
+      ], 
+      [
+        0.04042629290518767, 
+        [
+          "mkto2__original_source_type__c", 
+          "List import"
+        ]
+      ], 
+      [
+        0.03823206147876148, 
+        "mkto71_lead_score__c"
+      ], 
+      [
+        0.0359326144474276, 
+        [
+          "leadgrade6sense_pstg__c", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.03137290554606511, 
+        [
+          "leandata_account_type__c", 
+          "Reseller"
+        ]
+      ], 
+      [
+        0.030400827403736553, 
+        [
+          "leadsource", 
+          "Inside Sales"
+        ]
+      ], 
+      [
+        0.029754523585546, 
+        [
+          "lifecycle_status__c", 
+          "Known"
+        ]
+      ], 
+      [
+        0.028765284694190235, 
+        "mkto_si__priority__c"
+      ], 
+      [
+        0.026808042840358478, 
+        "mkto_si__urgency_value__c"
+      ], 
+      [
+        0.026015409460260888, 
+        [
+          "mql__c", 
+          "False"
+        ]
+      ], 
+      [
+        0.023113490831488826, 
+        [
+          "texcellency__defhc_is_active__c", 
+          "False"
+        ]
+      ], 
+      [
+        0.021944821903623693, 
+        [
+          "mkto2__original_source_type__c", 
+          "Web page visit"
+        ]
+      ], 
+      [
+        0.021717745860157706, 
+        [
+          "mkto2__original_source_type__c", 
+          "salesforce.com"
+        ]
+      ], 
+      [
+        0.02014529796630681, 
+        "marketo_lead_score__c"
+      ], 
+      [
+        0.018812467016127238, 
+        [
+          "texcellency__defhc_is_active__c", 
+          "True"
+        ]
+      ], 
+      [
+        0.01767618786073481, 
+        [
+          "leadgrade6sense_pstg__c", 
+          "B"
+        ]
+      ], 
+      [
+        0.014796016310957736, 
+        [
+          "leadsource", 
+          "Account Intelligence"
+        ]
+      ], 
+      [
+        0.012996764227325961, 
+        "mkto_si__relative_score_value__c"
+      ], 
+      [
+        0.012594008448585693, 
+        [
+          "lead_owner_division__c", 
+          "EMEA-Core"
+        ]
+      ], 
+      [
+        0.012308940747609609, 
+        [
+          "leadprofilefit6sense__c", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.012178820602291253, 
+        [
+          "accountbuyingstage6sense__c", 
+          "Purchase"
+        ]
+      ], 
+      [
+        0.011916013270498117, 
+        [
+          "mql__c", 
+          "True"
+        ]
+      ], 
+      [
+        0.011558095213175823, 
+        [
+          "leadgrade6sense_pstg__c", 
+          "C"
+        ]
+      ], 
+      [
+        0.011487323478884435, 
+        [
+          "segment_temp__c", 
+          "Other"
+        ]
+      ], 
+      [
+        0.011476709300874511, 
+        "current_lifecycle_status_age_marketo__c"
+      ], 
+      [
+        0.01103830587121013, 
+        [
+          "lifecycle_status__c", 
+          "Nurture"
+        ]
+      ], 
+      [
+        0.010532289089057767, 
+        "annualrevenue"
+      ], 
+      [
+        0.010198580306644982, 
+        [
+          "accountbuyingstage6sense__c", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.010120489422076202, 
+        "leandata_p2b_score__c"
+      ], 
+      [
+        0.009639336363400912, 
+        "mql_sla_time__c"
+      ], 
+      [
+        0.009311584623128297, 
+        "data_quality_score__c"
+      ], 
+      [
+        0.00881561692404277, 
+        [
+          "lifecycle_status__c", 
+          "Channel"
+        ]
+      ], 
+      [
+        0.008567276939556166, 
+        [
+          "leadprofilefit6sense__c", 
+          "Weak"
+        ]
+      ], 
+      [
+        0.007922110627945643, 
+        [
+          "leadprofilefit6sense__c", 
+          "Strong"
+        ]
+      ], 
+      [
+        0.006839505432089532, 
+        [
+          "mkto2__original_source_type__c", 
+          "Web service API"
+        ]
+      ], 
+      [
+        0.00652697772809015, 
+        [
+          "lifecycle_status__c", 
+          "Engaged"
+        ]
+      ], 
+      [
+        0.006436990847814391, 
+        [
+          "is_past_sla__c", 
+          "False"
+        ]
+      ], 
+      [
+        0.005676759975784026, 
+        [
+          "leadsource", 
+          "Web"
+        ]
+      ], 
+      [
+        0.005276215773895608, 
+        [
+          "industry", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0051213155407328955, 
+        [
+          "leandata_account_type__c", 
+          "Prospect"
+        ]
+      ], 
+      [
+        0.004673864534591543, 
+        [
+          "lead_owner_division__c", 
+          "EMEA-Near Core"
+        ]
+      ], 
+      [
+        0.004100154083018569, 
+        [
+          "is_past_sla__c", 
+          "True"
+        ]
+      ], 
+      [
+        0.003733467197265998, 
+        [
+          "company_website_main_domain", 
+          "com"
+        ]
+      ], 
+      [
+        0.00372888668710011, 
+        [
+          "accountbuyingstage6sense__c", 
+          "Awareness"
+        ]
+      ], 
+      [
+        0.0037256226073199917, 
+        [
+          "leandata_account_type__c", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0035568297498190433, 
+        [
+          "company_website_main_domain", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0031211487459846805, 
+        [
+          "leadsource", 
+          "Content Syndication"
+        ]
+      ], 
+      [
+        0.002640745988066501, 
+        [
+          "use_company_email", 
+          1.0
+        ]
+      ], 
+      [
+        0.002550036598540416, 
+        [
+          "lifecycle_status__c", 
+          "Rejected"
+        ]
+      ], 
+      [
+        0.0025279109451041403, 
+        [
+          "use_company_email", 
+          0.0
+        ]
+      ], 
+      [
+        0.002467184920666488, 
+        [
+          "leadgrade6sense_pstg__c", 
+          "A"
+        ]
+      ], 
+      [
+        0.0024576106674650015, 
+        [
+          "company_website_main_domain", 
+          "de"
+        ]
+      ], 
+      [
+        0.0022228788574611786, 
+        [
+          "leadprofilefit6sense__c", 
+          "Moderate"
+        ]
+      ], 
+      [
+        0.0021330818520888684, 
+        [
+          "leadsource", 
+          "Telemarketing"
+        ]
+      ], 
+      [
+        0.0020477527571108878, 
+        [
+          "mkto2__original_source_type__c", 
+          "Web form fillout"
+        ]
+      ], 
+      [
+        0.002018052452342239, 
+        [
+          "lifecycle_status__c", 
+          "MQL"
+        ]
+      ], 
+      [
+        0.0019923556909089615, 
+        [
+          "email_main_domain", 
+          "fr"
+        ]
+      ], 
+      [
+        0.0019743523508282505, 
+        [
+          "lead_owner_division__c", 
+          "EMEA-Core-Germany"
+        ]
+      ], 
+      [
+        0.0019375393125159299, 
+        [
+          "email_main_domain", 
+          "de"
+        ]
+      ], 
+      [
+        0.0018500793878258798, 
+        [
+          "email_main_domain", 
+          "com"
+        ]
+      ], 
+      [
+        0.001809550024824556, 
+        [
+          "accountbuyingstage6sense__c", 
+          "Decision"
+        ]
+      ], 
+      [
+        0.0017630219826548043, 
+        [
+          "industry", 
+          "Tech HW & SW-IDC"
+        ]
+      ], 
+      [
+        0.0017380163566860208, 
+        [
+          "segment_temp__c", 
+          "Enterprise"
+        ]
+      ], 
+      [
+        0.0017310620747612113, 
+        [
+          "lead_persona__c", 
+          "IT Managers / Engine"
+        ]
+      ], 
+      [
+        0.0016724018700425452, 
+        [
+          "lead_owner_division__c", 
+          "EMEA - Core"
+        ]
+      ], 
+      [
+        0.0016410754200333584, 
+        [
+          "title_level", 
+          "other"
+        ]
+      ], 
+      [
+        0.0015543312320005385, 
+        [
+          "leadsource", 
+          "Zoominfo"
+        ]
+      ], 
+      [
+        0.0015521589217444825, 
+        [
+          "leadsource", 
+          "Virtual Event"
+        ]
+      ], 
+      [
+        0.0015240922214755856, 
+        [
+          "accountbuyingstage6sense__c", 
+          "Target"
+        ]
+      ], 
+      [
+        0.001519891950394617, 
+        [
+          "lead_owner_division__c", 
+          "EMEA"
+        ]
+      ], 
+      [
+        0.0015062470726409905, 
+        [
+          "title_level", 
+          "Manager-level"
+        ]
+      ], 
+      [
+        0.0015035823666843737, 
+        [
+          "title_function", 
+          "IT-Tech"
+        ]
+      ], 
+      [
+        0.001452964694345472, 
+        [
+          "lead_persona__c", 
+          "Head of Storage"
+        ]
+      ], 
+      [
+        0.0014414559238066188, 
+        [
+          "leadsource", 
+          "Tradeshow"
+        ]
+      ], 
+      [
+        0.0013895253664012648, 
+        [
+          "email_main_domain", 
+          "nl"
+        ]
+      ], 
+      [
+        0.001338742008801636, 
+        [
+          "lead_persona__c", 
+          "Senior IT"
+        ]
+      ], 
+      [
+        0.0012927612142179343, 
+        [
+          "leadsource", 
+          "Webinar"
+        ]
+      ], 
+      [
+        0.0012509533727625716, 
+        [
+          "accountbuyingstage6sense__c", 
+          "Consideration"
+        ]
+      ], 
+      [
+        0.0012491479808206057, 
+        [
+          "lead_persona__c", 
+          "Unmatched"
+        ]
+      ], 
+      [
+        0.0011846925050763347, 
+        [
+          "industry", 
+          "Biz/ Professional Services-IDC"
+        ]
+      ], 
+      [
+        0.0011835531073054197, 
+        [
+          "email_matches_name", 
+          1.0
+        ]
+      ], 
+      [
+        0.0011469134938314064, 
+        [
+          "segment_temp__c", 
+          "Corporate Select"
+        ]
+      ], 
+      [
+        0.0011122977446216041, 
+        [
+          "company_website_main_domain", 
+          "fr"
+        ]
+      ], 
+      [
+        0.0010853220818130953, 
+        [
+          "title_function", 
+          "other"
+        ]
+      ], 
+      [
+        0.0010687469826017207, 
+        [
+          "segment_temp__c", 
+          "Commercial"
+        ]
+      ], 
+      [
+        0.0010498950004383311, 
+        [
+          "email_main_domain", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0010401372101017992, 
+        [
+          "email_matches_name", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.001038445816574063, 
+        [
+          "email_matches_name", 
+          0.0
+        ]
+      ], 
+      [
+        0.0010369849954848045, 
+        [
+          "lifecycle_status__c", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0009650412416447605, 
+        [
+          "leadsource", 
+          "other"
+        ]
+      ], 
+      [
+        0.0009181190500775139, 
+        [
+          "segment_temp__c", 
+          "Corporate"
+        ]
+      ], 
+      [
+        0.0009171825498074103, 
+        [
+          "lead_persona__c", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0009012561148780961, 
+        [
+          "industry", 
+          "Wholesale-IDC"
+        ]
+      ], 
+      [
+        0.0008966777806942874, 
+        [
+          "leadsource", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0008854844917778867, 
+        [
+          "leandata_account_type__c", 
+          "Customer"
+        ]
+      ], 
+      [
+        0.0008367051809595267, 
+        [
+          "leandata_account_type__c", 
+          "Service Provider"
+        ]
+      ], 
+      [
+        0.0008142995270835696, 
+        [
+          "title_level", 
+          "Director-level"
+        ]
+      ], 
+      [
+        0.0007994475265627811, 
+        [
+          "lead_owner_division__c", 
+          "EMEA-Emerging-EMERGING NORTH"
+        ]
+      ], 
+      [
+        0.0007830236457255782, 
+        [
+          "title_function", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0007465096405524968, 
+        [
+          "lead_persona__c", 
+          "No Job Title"
+        ]
+      ], 
+      [
+        0.0007201238090529164, 
+        [
+          "title_level", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0007122324945420321, 
+        [
+          "email_main_domain", 
+          "uk"
+        ]
+      ], 
+      [
+        0.0006937285739788446, 
+        [
+          "lead_persona__c", 
+          "NonTarget"
+        ]
+      ], 
+      [
+        0.0006494442899747227, 
+        [
+          "matched_account_named_target_account__c", 
+          "True"
+        ]
+      ], 
+      [
+        0.0006280013421739481, 
+        [
+          "segment_temp__c", 
+          "SLED"
+        ]
+      ], 
+      [
+        0.0006273401943872009, 
+        [
+          "email_main_domain", 
+          "br"
+        ]
+      ], 
+      [
+        0.0006209896354064836, 
+        [
+          "company_website_main_domain", 
+          "uk"
+        ]
+      ], 
+      [
+        0.000609285278175343, 
+        [
+          "industry", 
+          "Retail-IDC"
+        ]
+      ], 
+      [
+        0.0006033658121851131, 
+        [
+          "leadsource", 
+          "Trade Show"
+        ]
+      ], 
+      [
+        0.000594544832017475, 
+        [
+          "use_company_email", 
+          "_MISSING"
+        ]
+      ], 
+      [
+        0.0005835846390089293, 
+        [
+          "company_website_main_domain", 
+          "other"
+        ]
+      ], 
+      [
+        0.0005441918938199603, 
+        [
+          "email_main_domain", 
+          "au"
+        ]
+      ], 
+      [
+        0.0005383994426289336, 
+        [
+          "leadsource", 
+          "Direct Mail"
+        ]
+      ], 
+      [
+        0.0005241444266207531, 
+        [
+          "email_main_domain", 
+          "sg"
+        ]
+      ], 
+      [
+        0.0004987432990214741, 
+        [
+          "title_function", 
+          "Product"
+        ]
+      ], 
+      [
+        0.000492583100815071, 
+        [
+          "title_function", 
+          "Operation"
+        ]
+      ], 
+      [
+        0.00047767088580054253, 
+        [
+          "industry", 
+          "Manufacturing-IDC"
+        ]
+      ], 
+      [
+        0.0004742320367692198, 
+        [
+          "title_function", 
+          "Finan-Account"
+        ]
+      ], 
+      [
+        0.00046308136842573416, 
+        [
+          "leadsource", 
+          "Regional Event"
+        ]
+      ], 
+      [
+        0.00046070551212604394, 
+        [
+          "leadsource", 
+          "Call Blitz"
+        ]
+      ], 
+      [
+        0.00045682208560835077, 
+        [
+          "title_level", 
+          "C-level"
+        ]
+      ], 
+      [
+        0.00044766986035606605, 
+        [
+          "lead_owner_division__c", 
+          "LATAM"
+        ]
+      ], 
+      [
+        0.000440405219491545, 
+        [
+          "email_main_domain", 
+          "pl"
+        ]
+      ], 
+      [
+        0.00043860720926950514, 
+        [
+          "lead_persona__c", 
+          "IT Architect"
+        ]
+      ], 
+      [
+        0.0004153183887498512, 
+        [
+          "lead_owner_division__c", 
+          "EMEA-Emerging"
+        ]
+      ], 
+      [
+        0.0003877669392913813, 
+        [
+          "matched_account_named_target_account__c", 
+          "False"
+        ]
+      ], 
+      [
+        0.00037349829505383276, 
+        [
+          "title_function", 
+          "Business"
+        ]
+      ], 
+      [
+        0.000372988970374184, 
+        [
+          "industry", 
+          "Banking & Securities-IDC"
+        ]
+      ], 
+      [
+        0.00036908836494253106, 
+        [
+          "industry", 
+          "SLED (State, Local, Education)-IDC"
+        ]
+      ], 
+      [
+        0.000361855732987848, 
+        [
+          "lead_persona__c", 
+          "IT C-Level"
+        ]
+      ], 
+      [
+        0.0003556474138063728, 
+        [
+          "leadsource", 
+          "Meeting Maker"
+        ]
+      ], 
+      [
+        0.00034933940392366367, 
+        [
+          "leadsource", 
+          "Zoom info"
+        ]
+      ], 
+      [
+        0.00034432328059662824, 
+        [
+          "lead_owner_division__c", 
+          "EMEA-Core-UK"
+        ]
+      ], 
+      [
+        0.00033852120418141255, 
+        [
+          "lead_persona__c", 
+          "DBA"
+        ]
+      ], 
+      [
+        0.0003357719892327965, 
+        [
+          "leadsource", 
+          "Email"
+        ]
+      ], 
+      [
+        0.0003243996517520928, 
+        [
+          "industry", 
+          "Construction-IDC"
+        ]
+      ], 
+      [
+        0.00029830706327258036, 
+        [
+          "lead_persona__c", 
+          "LOB / Other C-Suite"
+        ]
+      ], 
+      [
+        0.00029593709236064633, 
+        [
+          "email_main_domain", 
+          "eu"
+        ]
+      ], 
+      [
+        0.0002770240492651246, 
+        [
+          "leadsource", 
+          "Web (High Intent)"
+        ]
+      ], 
+      [
+        0.0002650362287126081, 
+        [
+          "email_main_domain", 
+          "be"
+        ]
+      ], 
+      [
+        0.00026316619346503464, 
+        [
+          "leandata_account_type__c", 
+          "Pure Storage Internal"
+        ]
+      ], 
+      [
+        0.00025926087166968585, 
+        [
+          "lead_owner_division__c", 
+          "EMEA-North & South-SIS"
+        ]
+      ], 
+      [
+        0.00025565228340984993, 
+        [
+          "email_main_domain", 
+          "ie"
+        ]
+      ], 
+      [
+        0.0002540972844950489, 
+        [
+          "industry", 
+          "Fed Gov't-IDC"
+        ]
+      ], 
+      [
+        0.00024741233424079414, 
+        [
+          "company_website_main_domain", 
+          "tr"
+        ]
+      ], 
+      [
+        0.0002415826045158778, 
+        [
+          "company_website_main_domain", 
+          "nl"
+        ]
+      ], 
+      [
+        0.00023200398708710416, 
+        [
+          "title_level", 
+          "Staff-level"
+        ]
+      ], 
+      [
+        0.00022465248604612776, 
+        [
+          "email_main_domain", 
+          "ro"
+        ]
+      ], 
+      [
+        0.00022322698509784383, 
+        [
+          "industry", 
+          "Oil/ Gas/ Energy-IDC"
+        ]
+      ], 
+      [
+        0.00020842674768197213, 
+        [
+          "email_main_domain", 
+          "other"
+        ]
+      ], 
+      [
+        0.00020734269852093752, 
+        [
+          "company_website_main_domain", 
+          "ru"
+        ]
+      ], 
+      [
+        0.00020701771533385426, 
+        [
+          "lead_persona__c", 
+          "App owner"
+        ]
+      ], 
+      [
+        0.0002033877651875301, 
+        [
+          "company_website_main_domain", 
+          "za"
+        ]
+      ], 
+      [
+        0.0002005353275726201, 
+        [
+          "email_main_domain", 
+          "ch"
+        ]
+      ], 
+      [
+        0.00019942228503539512, 
+        [
+          "segment_temp__c", 
+          "Healthcare"
+        ]
+      ], 
+      [
+        0.0001878767432302624, 
+        [
+          "leadsource", 
+          "Web (Content)"
+        ]
+      ], 
+      [
+        0.0001822202448162544, 
+        [
+          "industry", 
+          "Healthcare Providers-IDC"
+        ]
+      ], 
+      [
+        0.0001812196966429335, 
+        [
+          "company_website_main_domain", 
+          "au"
+        ]
+      ], 
+      [
+        0.0001727262148612258, 
+        [
+          "email_main_domain", 
+          "sa"
+        ]
+      ], 
+      [
+        0.00015861890986085592, 
+        [
+          "email_main_domain", 
+          "es"
+        ]
+      ], 
+      [
+        0.00015005991923274002, 
+        [
+          "industry", 
+          "Utilities-IDC"
+        ]
+      ], 
+      [
+        0.00014797727852725699, 
+        [
+          "email_main_domain", 
+          "org"
+        ]
+      ], 
+      [
+        0.00012632368507123316, 
+        [
+          "title_function", 
+          "Sales"
+        ]
+      ], 
+      [
+        0.00011916220974964057, 
+        [
+          "lead_owner_division__c", 
+          "EMEA-ISO"
+        ]
+      ], 
+      [
+        0.00010862656785594655, 
+        [
+          "industry", 
+          "Pharma/ Life Sciences-IDC"
+        ]
+      ], 
+      [
+        0.00010837839179315671, 
+        [
+          "industry", 
+          "other"
+        ]
+      ], 
+      [
+        9.440480740117004e-05, 
+        [
+          "lead_owner_division__c", 
+          "other"
+        ]
+      ], 
+      [
+        9.409265275712482e-05, 
+        [
+          "title_function", 
+          "Office"
+        ]
+      ], 
+      [
+        8.372389085840721e-05, 
+        [
+          "leadsource", 
+          "The Register"
+        ]
+      ], 
+      [
+        8.175095818946821e-05, 
+        [
+          "email_main_domain", 
+          "za"
+        ]
+      ], 
+      [
+        8.133952922650809e-05, 
+        [
+          "lead_persona__c", 
+          "Cloud / Virtualizati"
+        ]
+      ], 
+      [
+        8.10562306153113e-05, 
+        [
+          "title_function", 
+          "SR-Mgmnt-Gen"
+        ]
+      ], 
+      [
+        7.648301695548838e-05, 
+        [
+          "industry", 
+          "Insurance-IDC"
+        ]
+      ], 
+      [
+        7.54928252969757e-05, 
+        [
+          "email_main_domain", 
+          "net"
+        ]
+      ], 
+      [
+        7.139834338474167e-05, 
+        [
+          "leadsource", 
+          "Aberdeen Group List Supply 2020"
+        ]
+      ], 
+      [
+        6.786619047663668e-05, 
+        [
+          "title_function", 
+          "Support"
+        ]
+      ], 
+      [
+        6.786476988474307e-05, 
+        [
+          "email_main_domain", 
+          "cz"
+        ]
+      ], 
+      [
+        6.766199888345534e-05, 
+        [
+          "company_website_main_domain", 
+          "it"
+        ]
+      ], 
+      [
+        6.162915091903672e-05, 
+        [
+          "email_main_domain", 
+          "my"
+        ]
+      ], 
+      [
+        5.9162289261549453e-05, 
+        [
+          "company_website_main_domain", 
+          "net"
+        ]
+      ], 
+      [
+        5.875577663519164e-05, 
+        [
+          "lead_status_follow_up_month__c", 
+          "January"
+        ]
+      ], 
+      [
+        5.62948243820235e-05, 
+        [
+          "industry", 
+          "Transportation-IDC"
+        ]
+      ], 
+      [
+        4.2321786201860305e-05, 
+        [
+          "industry", 
+          "Comms & Media-IDC"
+        ]
+      ], 
+      [
+        4.0025026914017514e-05, 
+        [
+          "company_website_main_domain", 
+          "se"
+        ]
+      ], 
+      [
+        3.8413483439331766e-05, 
+        [
+          "email_main_domain", 
+          "it"
+        ]
+      ], 
+      [
+        2.6841471117414224e-05, 
+        [
+          "email_main_domain", 
+          "ae"
+        ]
+      ], 
+      [
+        2.633946104839929e-05, 
+        [
+          "title_level", 
+          "VP-level"
+        ]
+      ], 
+      [
+        2.439436270280158e-05, 
+        [
+          "lead_status_follow_up_month__c", 
+          "other"
+        ]
+      ], 
+      [
+        2.3011104575642735e-05, 
+        [
+          "leadsource", 
+          "Other"
+        ]
+      ], 
+      [
+        2.1693793168536483e-05, 
+        [
+          "segment_temp__c", 
+          "Federal"
+        ]
+      ], 
+      [
+        2.1527976753862266e-05, 
+        [
+          "company_website_main_domain", 
+          "sg"
+        ]
+      ], 
+      [
+        1.8031382295318968e-05, 
+        [
+          "company_website_main_domain", 
+          "nz"
+        ]
+      ], 
+      [
+        1.294102984810534e-05, 
+        [
+          "email_main_domain", 
+          "nz"
+        ]
+      ], 
+      [
+        1.0844000747437365e-05, 
+        [
+          "title_function", 
+          "Marketing"
+        ]
+      ], 
+      [
+        8.703266658755376e-06, 
+        [
+          "lead_persona__c", 
+          "Undesirable"
+        ]
+      ], 
+      [
+        8.148924340991028e-06, 
+        [
+          "email_main_domain", 
+          "ru"
+        ]
+      ], 
+      [
+        6.617053373698571e-06, 
+        [
+          "email_main_domain", 
+          "se"
+        ]
+      ], 
+      [
+        6.364659782908242e-06, 
+        [
+          "email_main_domain", 
+          "at"
+        ]
+      ], 
+      [
+        5.032243801304943e-06, 
+        [
+          "lead_owner_division__c", 
+          "Global System Integrators"
+        ]
+      ], 
+      [
+        4.1228539678287924e-06, 
+        [
+          "email_main_domain", 
+          "mx"
+        ]
+      ], 
+      [
+        3.0328924215252525e-06, 
+        [
+          "company_website_main_domain", 
+          "ch"
+        ]
+      ], 
+      [
+        1.5487366553079007e-06, 
+        [
+          "title_function", 
+          "HR-EDU"
+        ]
+      ], 
+      [
+        1.438758069567542e-06, 
+        [
+          "company_website_main_domain", 
+          "my"
+        ]
+      ], 
+      [
+        5.846566038572977e-07, 
+        [
+          "industry", 
+          "Central Government"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "leadsource", 
+          "Euros 2020 meeting maker"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "leadsource", 
+          "JFrog Swamp-Up Conference"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "leadsource", 
+          "Madison Logic"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "leadsource", 
+          "Public Sector Executive Digital transformation virtual event"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "leadsource", 
+          "Virtal Event"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "title_function", 
+          "Legal"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "mkto2__original_source_type__c", 
+          "other"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "lifecycle_status__c", 
+          "other"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "email_main_domain", 
+          "cl"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "email_main_domain", 
+          "law"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "email_main_domain", 
+          "tr"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "company_website_main_domain", 
+          "at"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "company_website_main_domain", 
+          "law"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "company_website_main_domain", 
+          "org"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "lead_persona__c", 
+          "BI/AI"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "lead_persona__c", 
+          "other"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "leandata_account_type__c", 
+          "Distributor"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "leandata_account_type__c", 
+          "Systems Integrator"
+        ]
+      ], 
+      [
+        0.0, 
+        [
+          "leandata_account_type__c", 
+          "other"
+        ]
+      ]
+    ], 
+    "feat_importances_grouped": [
+      [
+        0.11544455036842463, 
+        "leadgrade6sense_pstg__c"
+      ], 
+      [
+        0.10409359447590681, 
+        "lifecycle_status__c"
+      ], 
+      [
+        0.09297611885816948, 
+        "mkto2__original_source_type__c"
+      ], 
+      [
+        0.07403898244332593, 
+        "marketing_lead_grade__c"
+      ], 
+      [
+        0.06757960567630332, 
+        "leadsource"
+      ], 
+      [
+        0.061176104394444535, 
+        "leadengagementscore6sense_pstg__c"
+      ], 
+      [
+        0.04220519956032044, 
+        "leandata_account_type__c"
+      ], 
+      [
+        0.04192595784761606, 
+        "texcellency__defhc_is_active__c"
+      ], 
+      [
+        0.03823206147876148, 
+        "mkto71_lead_score__c"
+      ], 
+      [
+        0.037931422730759, 
+        "mql__c"
+      ], 
+      [
+        0.031021207172572597, 
+        "leadprofilefit6sense__c"
+      ], 
+      [
+        0.03069088321509906, 
+        "accountbuyingstage6sense__c"
+      ], 
+      [
+        0.028765284694190235, 
+        "mkto_si__priority__c"
+      ], 
+      [
+        0.026808042840358478, 
+        "mkto_si__urgency_value__c"
+      ], 
+      [
+        0.02491913834332977, 
+        "lead_owner_division__c"
+      ], 
+      [
+        0.02014529796630681, 
+        "marketo_lead_score__c"
+      ], 
+      [
+        0.017208236782458978, 
+        "segment_temp__c"
+      ], 
+      [
+        0.013387458736145523, 
+        "email_main_domain"
+      ], 
+      [
+        0.01335660505729443, 
+        "company_website_main_domain"
+      ], 
+      [
+        0.012996764227325961, 
+        "mkto_si__relative_score_value__c"
+      ], 
+      [
+        0.012480913204983757, 
+        "industry"
+      ], 
+      [
+        0.011476709300874511, 
+        "current_lifecycle_status_age_marketo__c"
+      ], 
+      [
+        0.010537144930832961, 
+        "is_past_sla__c"
+      ], 
+      [
+        0.010532289089057767, 
+        "annualrevenue"
+      ], 
+      [
+        0.010120489422076202, 
+        "leandata_p2b_score__c"
+      ], 
+      [
+        0.00986368924399814, 
+        "lead_persona__c"
+      ], 
+      [
+        0.009639336363400912, 
+        "mql_sla_time__c"
+      ], 
+      [
+        0.009311584623128297, 
+        "data_quality_score__c"
+      ], 
+      [
+        0.005763201765188116, 
+        "use_company_email"
+      ], 
+      [
+        0.005592716322205696, 
+        "title_function"
+      ], 
+      [
+        0.005396911362554688, 
+        "title_level"
+      ], 
+      [
+        0.003262136133981282, 
+        "email_matches_name"
+      ], 
+      [
+        0.001037211229266104, 
+        "matched_account_named_target_account__c"
+      ], 
+      [
+        8.315013933799323e-05, 
+        "lead_status_follow_up_month__c"
+      ]
+    ], 
+    "feature_value_stats": [
+      {
+        "feature_name": "lead_status_follow_up_month__c", 
+        "feature_value": "January", 
+        "num_items": 99689.0, 
+        "num_positive": 1098.0, 
+        "positive_percent": 1.1014254330969315
+      }, 
+      {
+        "feature_name": "lead_status_follow_up_month__c", 
+        "feature_value": "other", 
+        "num_items": 311.0, 
+        "num_positive": 10.0, 
+        "positive_percent": 3.215434083601286
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA", 
+        "num_items": 9004.0, 
+        "num_positive": 175.0, 
+        "positive_percent": 1.943580630830742
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA - Core", 
+        "num_items": 2239.0, 
+        "num_positive": 44.0, 
+        "positive_percent": 1.9651630192050022
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA-Core", 
+        "num_items": 66732.0, 
+        "num_positive": 448.0, 
+        "positive_percent": 0.6713420847569382
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA-Core-Germany", 
+        "num_items": 1283.0, 
+        "num_positive": 66.0, 
+        "positive_percent": 5.14419329696025
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA-Core-UK", 
+        "num_items": 5815.0, 
+        "num_positive": 27.0, 
+        "positive_percent": 0.4643164230438521
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA-Emerging", 
+        "num_items": 3812.0, 
+        "num_positive": 34.0, 
+        "positive_percent": 0.8919202518363064
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA-Emerging-EMERGING NORTH", 
+        "num_items": 606.0, 
+        "num_positive": 28.0, 
+        "positive_percent": 4.62046204620462
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA-ISO", 
+        "num_items": 542.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA-Near Core", 
+        "num_items": 7041.0, 
+        "num_positive": 211.0, 
+        "positive_percent": 2.9967334185485015
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "EMEA-North & South-SIS", 
+        "num_items": 753.0, 
+        "num_positive": 31.0, 
+        "positive_percent": 4.116865869853918
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "Global System Integrators", 
+        "num_items": 548.0, 
+        "num_positive": 2.0, 
+        "positive_percent": 0.36496350364963503
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "LATAM", 
+        "num_items": 941.0, 
+        "num_positive": 36.0, 
+        "positive_percent": 3.8257173219978746
+      }, 
+      {
+        "feature_name": "lead_owner_division__c", 
+        "feature_value": "other", 
+        "num_items": 684.0, 
+        "num_positive": 6.0, 
+        "positive_percent": 0.8771929824561403
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Aberdeen Group List Supply 2020", 
+        "num_items": 4874.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Account Intelligence", 
+        "num_items": 21273.0, 
+        "num_positive": 4.0, 
+        "positive_percent": 0.01880317773703756
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Call Blitz", 
+        "num_items": 2148.0, 
+        "num_positive": 6.0, 
+        "positive_percent": 0.27932960893854747
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Content Syndication", 
+        "num_items": 8132.0, 
+        "num_positive": 7.0, 
+        "positive_percent": 0.08607968519429415
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Direct Mail", 
+        "num_items": 1014.0, 
+        "num_positive": 19.0, 
+        "positive_percent": 1.873767258382643
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Email", 
+        "num_items": 2882.0, 
+        "num_positive": 2.0, 
+        "positive_percent": 0.06939625260235947
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Euros 2020 meeting maker", 
+        "num_items": 283.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Inside Sales", 
+        "num_items": 2920.0, 
+        "num_positive": 383.0, 
+        "positive_percent": 13.116438356164384
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "JFrog Swamp-Up Conference", 
+        "num_items": 388.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Madison Logic", 
+        "num_items": 421.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Meeting Maker", 
+        "num_items": 2895.0, 
+        "num_positive": 48.0, 
+        "positive_percent": 1.6580310880829014
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Other", 
+        "num_items": 381.0, 
+        "num_positive": 18.0, 
+        "positive_percent": 4.724409448818897
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Public Sector Executive Digital transformation virtual event", 
+        "num_items": 212.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Regional Event", 
+        "num_items": 2643.0, 
+        "num_positive": 32.0, 
+        "positive_percent": 1.2107453651153992
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Telemarketing", 
+        "num_items": 4942.0, 
+        "num_positive": 21.0, 
+        "positive_percent": 0.42492917847025496
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "The Register", 
+        "num_items": 1022.0, 
+        "num_positive": 1.0, 
+        "positive_percent": 0.09784735812133072
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Trade Show", 
+        "num_items": 1989.0, 
+        "num_positive": 16.0, 
+        "positive_percent": 0.8044243338360986
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Tradeshow", 
+        "num_items": 8548.0, 
+        "num_positive": 10.0, 
+        "positive_percent": 0.1169864295741694
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Virtal Event", 
+        "num_items": 523.0, 
+        "num_positive": 2.0, 
+        "positive_percent": 0.3824091778202677
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Virtual Event", 
+        "num_items": 12920.0, 
+        "num_positive": 133.0, 
+        "positive_percent": 1.0294117647058822
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Web", 
+        "num_items": 1734.0, 
+        "num_positive": 138.0, 
+        "positive_percent": 7.958477508650519
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Web (Content)", 
+        "num_items": 448.0, 
+        "num_positive": 2.0, 
+        "positive_percent": 0.44642857142857145
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Web (High Intent)", 
+        "num_items": 247.0, 
+        "num_positive": 51.0, 
+        "positive_percent": 20.647773279352226
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Webinar", 
+        "num_items": 4617.0, 
+        "num_positive": 24.0, 
+        "positive_percent": 0.5198180636777128
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Zoom info", 
+        "num_items": 2045.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "Zoominfo", 
+        "num_items": 4437.0, 
+        "num_positive": 33.0, 
+        "positive_percent": 0.7437457741717377
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "_MISSING", 
+        "num_items": 2807.0, 
+        "num_positive": 56.0, 
+        "positive_percent": 1.9950124688279303
+      }, 
+      {
+        "feature_name": "leadsource", 
+        "feature_value": "other", 
+        "num_items": 3255.0, 
+        "num_positive": 102.0, 
+        "positive_percent": 3.133640552995392
+      }, 
+      {
+        "feature_name": "leadgrade6sense_pstg__c", 
+        "feature_value": "A", 
+        "num_items": 291.0, 
+        "num_positive": 83.0, 
+        "positive_percent": 28.522336769759452
+      }, 
+      {
+        "feature_name": "leadgrade6sense_pstg__c", 
+        "feature_value": "B", 
+        "num_items": 3132.0, 
+        "num_positive": 194.0, 
+        "positive_percent": 6.194125159642401
+      }, 
+      {
+        "feature_name": "leadgrade6sense_pstg__c", 
+        "feature_value": "C", 
+        "num_items": 8459.0, 
+        "num_positive": 26.0, 
+        "positive_percent": 0.3073649367537534
+      }, 
+      {
+        "feature_name": "leadgrade6sense_pstg__c", 
+        "feature_value": "D", 
+        "num_items": 73706.0, 
+        "num_positive": 147.0, 
+        "positive_percent": 0.19944102244050688
+      }, 
+      {
+        "feature_name": "leadgrade6sense_pstg__c", 
+        "feature_value": "_MISSING", 
+        "num_items": 14412.0, 
+        "num_positive": 658.0, 
+        "positive_percent": 4.56563974465723
+      }, 
+      {
+        "feature_name": "mql__c", 
+        "feature_value": "False", 
+        "num_items": 93827.0, 
+        "num_positive": 764.0, 
+        "positive_percent": 0.8142645507156788
+      }, 
+      {
+        "feature_name": "mql__c", 
+        "feature_value": "True", 
+        "num_items": 6173.0, 
+        "num_positive": 344.0, 
+        "positive_percent": 5.572655110967115
+      }, 
+      {
+        "feature_name": "texcellency__defhc_is_active__c", 
+        "feature_value": "False", 
+        "num_items": 92597.0, 
+        "num_positive": 659.0, 
+        "positive_percent": 0.71168612374051
+      }, 
+      {
+        "feature_name": "texcellency__defhc_is_active__c", 
+        "feature_value": "True", 
+        "num_items": 7403.0, 
+        "num_positive": 449.0, 
+        "positive_percent": 6.065108739700122
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "Business", 
+        "num_items": 2647.0, 
+        "num_positive": 8.0, 
+        "positive_percent": 0.3022289384208538
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "Finan-Account", 
+        "num_items": 2495.0, 
+        "num_positive": 47.0, 
+        "positive_percent": 1.8837675350701404
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "HR-EDU", 
+        "num_items": 632.0, 
+        "num_positive": 2.0, 
+        "positive_percent": 0.31645569620253167
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "IT-Tech", 
+        "num_items": 38704.0, 
+        "num_positive": 468.0, 
+        "positive_percent": 1.2091773460107482
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "Legal", 
+        "num_items": 441.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "Marketing", 
+        "num_items": 1382.0, 
+        "num_positive": 11.0, 
+        "positive_percent": 0.7959479015918958
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "Office", 
+        "num_items": 510.0, 
+        "num_positive": 1.0, 
+        "positive_percent": 0.19607843137254902
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "Operation", 
+        "num_items": 7413.0, 
+        "num_positive": 110.0, 
+        "positive_percent": 1.4838796708485094
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "Product", 
+        "num_items": 8035.0, 
+        "num_positive": 76.0, 
+        "positive_percent": 0.9458618543870566
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "SR-Mgmnt-Gen", 
+        "num_items": 3120.0, 
+        "num_positive": 15.0, 
+        "positive_percent": 0.4807692307692308
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "Sales", 
+        "num_items": 1841.0, 
+        "num_positive": 30.0, 
+        "positive_percent": 1.6295491580662684
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "Support", 
+        "num_items": 1590.0, 
+        "num_positive": 11.0, 
+        "positive_percent": 0.6918238993710691
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "_MISSING", 
+        "num_items": 4333.0, 
+        "num_positive": 39.0, 
+        "positive_percent": 0.9000692360950843
+      }, 
+      {
+        "feature_name": "title_function", 
+        "feature_value": "other", 
+        "num_items": 26857.0, 
+        "num_positive": 290.0, 
+        "positive_percent": 1.0797929776222215
+      }, 
+      {
+        "feature_name": "use_company_email", 
+        "feature_value": 0.0, 
+        "num_items": 25559.0, 
+        "num_positive": 282.0, 
+        "positive_percent": 1.1033295512343988
+      }, 
+      {
+        "feature_name": "use_company_email", 
+        "feature_value": 1.0, 
+        "num_items": 69542.0, 
+        "num_positive": 759.0, 
+        "positive_percent": 1.091426763682379
+      }, 
+      {
+        "feature_name": "use_company_email", 
+        "feature_value": "_MISSING", 
+        "num_items": 4899.0, 
+        "num_positive": 67.0, 
+        "positive_percent": 1.3676260461318637
+      }, 
+      {
+        "feature_name": "mkto2__original_source_type__c", 
+        "feature_value": "List import", 
+        "num_items": 74034.0, 
+        "num_positive": 285.0, 
+        "positive_percent": 0.3849582624199692
+      }, 
+      {
+        "feature_name": "mkto2__original_source_type__c", 
+        "feature_value": "Web form fillout", 
+        "num_items": 1947.0, 
+        "num_positive": 77.0, 
+        "positive_percent": 3.9548022598870056
+      }, 
+      {
+        "feature_name": "mkto2__original_source_type__c", 
+        "feature_value": "Web page visit", 
+        "num_items": 3529.0, 
+        "num_positive": 278.0, 
+        "positive_percent": 7.877585718333806
+      }, 
+      {
+        "feature_name": "mkto2__original_source_type__c", 
+        "feature_value": "Web service API", 
+        "num_items": 13002.0, 
+        "num_positive": 15.0, 
+        "positive_percent": 0.11536686663590216
+      }, 
+      {
+        "feature_name": "mkto2__original_source_type__c", 
+        "feature_value": "other", 
+        "num_items": 21.0, 
+        "num_positive": 4.0, 
+        "positive_percent": 19.047619047619047
+      }, 
+      {
+        "feature_name": "mkto2__original_source_type__c", 
+        "feature_value": "salesforce.com", 
+        "num_items": 7467.0, 
+        "num_positive": 449.0, 
+        "positive_percent": 6.013124414088657
+      }, 
+      {
+        "feature_name": "accountbuyingstage6sense__c", 
+        "feature_value": "Awareness", 
+        "num_items": 22179.0, 
+        "num_positive": 64.0, 
+        "positive_percent": 0.288561251634429
+      }, 
+      {
+        "feature_name": "accountbuyingstage6sense__c", 
+        "feature_value": "Consideration", 
+        "num_items": 18748.0, 
+        "num_positive": 126.0, 
+        "positive_percent": 0.6720716876466823
+      }, 
+      {
+        "feature_name": "accountbuyingstage6sense__c", 
+        "feature_value": "Decision", 
+        "num_items": 26570.0, 
+        "num_positive": 177.0, 
+        "positive_percent": 0.6661648475724501
+      }, 
+      {
+        "feature_name": "accountbuyingstage6sense__c", 
+        "feature_value": "Purchase", 
+        "num_items": 13449.0, 
+        "num_positive": 450.0, 
+        "positive_percent": 3.345973678340397
+      }, 
+      {
+        "feature_name": "accountbuyingstage6sense__c", 
+        "feature_value": "Target", 
+        "num_items": 5146.0, 
+        "num_positive": 137.0, 
+        "positive_percent": 2.6622619510299264
+      }, 
+      {
+        "feature_name": "accountbuyingstage6sense__c", 
+        "feature_value": "_MISSING", 
+        "num_items": 13908.0, 
+        "num_positive": 154.0, 
+        "positive_percent": 1.1072763876905378
+      }, 
+      {
+        "feature_name": "segment_temp__c", 
+        "feature_value": "Commercial", 
+        "num_items": 19979.0, 
+        "num_positive": 75.0, 
+        "positive_percent": 0.37539416387206564
+      }, 
+      {
+        "feature_name": "segment_temp__c", 
+        "feature_value": "Corporate", 
+        "num_items": 15737.0, 
+        "num_positive": 92.0, 
+        "positive_percent": 0.5846095189680371
+      }, 
+      {
+        "feature_name": "segment_temp__c", 
+        "feature_value": "Corporate Select", 
+        "num_items": 4705.0, 
+        "num_positive": 95.0, 
+        "positive_percent": 2.0191285866099893
+      }, 
+      {
+        "feature_name": "segment_temp__c", 
+        "feature_value": "Enterprise", 
+        "num_items": 17503.0, 
+        "num_positive": 53.0, 
+        "positive_percent": 0.30280523338856197
+      }, 
+      {
+        "feature_name": "segment_temp__c", 
+        "feature_value": "Federal", 
+        "num_items": 1235.0, 
+        "num_positive": 5.0, 
+        "positive_percent": 0.4048582995951417
+      }, 
+      {
+        "feature_name": "segment_temp__c", 
+        "feature_value": "Healthcare", 
+        "num_items": 4219.0, 
+        "num_positive": 16.0, 
+        "positive_percent": 0.3792367859682389
+      }, 
+      {
+        "feature_name": "segment_temp__c", 
+        "feature_value": "Other", 
+        "num_items": 30650.0, 
+        "num_positive": 739.0, 
+        "positive_percent": 2.4110929853181076
+      }, 
+      {
+        "feature_name": "segment_temp__c", 
+        "feature_value": "SLED", 
+        "num_items": 5972.0, 
+        "num_positive": 33.0, 
+        "positive_percent": 0.5525787006028131
+      }, 
+      {
+        "feature_name": "leadprofilefit6sense__c", 
+        "feature_value": "Moderate", 
+        "num_items": 23568.0, 
+        "num_positive": 349.0, 
+        "positive_percent": 1.4808214528173795
+      }, 
+      {
+        "feature_name": "leadprofilefit6sense__c", 
+        "feature_value": "Strong", 
+        "num_items": 7061.0, 
+        "num_positive": 349.0, 
+        "positive_percent": 4.942642685172072
+      }, 
+      {
+        "feature_name": "leadprofilefit6sense__c", 
+        "feature_value": "Weak", 
+        "num_items": 55463.0, 
+        "num_positive": 256.0, 
+        "positive_percent": 0.461568973910535
+      }, 
+      {
+        "feature_name": "leadprofilefit6sense__c", 
+        "feature_value": "_MISSING", 
+        "num_items": 13908.0, 
+        "num_positive": 154.0, 
+        "positive_percent": 1.1072763876905378
+      }, 
+      {
+        "feature_name": "lifecycle_status__c", 
+        "feature_value": "Channel", 
+        "num_items": 1913.0, 
+        "num_positive": 218.0, 
+        "positive_percent": 11.395713538944067
+      }, 
+      {
+        "feature_name": "lifecycle_status__c", 
+        "feature_value": "Engaged", 
+        "num_items": 20528.0, 
+        "num_positive": 112.0, 
+        "positive_percent": 0.5455962587685113
+      }, 
+      {
+        "feature_name": "lifecycle_status__c", 
+        "feature_value": "Known", 
+        "num_items": 49255.0, 
+        "num_positive": 98.0, 
+        "positive_percent": 0.1989645721246574
+      }, 
+      {
+        "feature_name": "lifecycle_status__c", 
+        "feature_value": "MQL", 
+        "num_items": 3938.0, 
+        "num_positive": 208.0, 
+        "positive_percent": 5.281868969019807
+      }, 
+      {
+        "feature_name": "lifecycle_status__c", 
+        "feature_value": "Nurture", 
+        "num_items": 17904.0, 
+        "num_positive": 19.0, 
+        "positive_percent": 0.10612153708668454
+      }, 
+      {
+        "feature_name": "lifecycle_status__c", 
+        "feature_value": "Rejected", 
+        "num_items": 2764.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "lifecycle_status__c", 
+        "feature_value": "SAL", 
+        "num_items": 3372.0, 
+        "num_positive": 450.0, 
+        "positive_percent": 13.345195729537366
+      }, 
+      {
+        "feature_name": "lifecycle_status__c", 
+        "feature_value": "_MISSING", 
+        "num_items": 287.0, 
+        "num_positive": 3.0, 
+        "positive_percent": 1.0452961672473868
+      }, 
+      {
+        "feature_name": "lifecycle_status__c", 
+        "feature_value": "other", 
+        "num_items": 39.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "title_level", 
+        "feature_value": "C-level", 
+        "num_items": 4439.0, 
+        "num_positive": 57.0, 
+        "positive_percent": 1.2840729894120297
+      }, 
+      {
+        "feature_name": "title_level", 
+        "feature_value": "Director-level", 
+        "num_items": 14862.0, 
+        "num_positive": 172.0, 
+        "positive_percent": 1.1573139550531557
+      }, 
+      {
+        "feature_name": "title_level", 
+        "feature_value": "Manager-level", 
+        "num_items": 43387.0, 
+        "num_positive": 459.0, 
+        "positive_percent": 1.0579205752875285
+      }, 
+      {
+        "feature_name": "title_level", 
+        "feature_value": "Staff-level", 
+        "num_items": 4526.0, 
+        "num_positive": 18.0, 
+        "positive_percent": 0.39770216526734425
+      }, 
+      {
+        "feature_name": "title_level", 
+        "feature_value": "VP-level", 
+        "num_items": 3416.0, 
+        "num_positive": 16.0, 
+        "positive_percent": 0.468384074941452
+      }, 
+      {
+        "feature_name": "title_level", 
+        "feature_value": "_MISSING", 
+        "num_items": 4333.0, 
+        "num_positive": 39.0, 
+        "positive_percent": 0.9000692360950843
+      }, 
+      {
+        "feature_name": "title_level", 
+        "feature_value": "other", 
+        "num_items": 25037.0, 
+        "num_positive": 347.0, 
+        "positive_percent": 1.3859487957822423
+      }, 
+      {
+        "feature_name": "matched_account_named_target_account__c", 
+        "feature_value": "False", 
+        "num_items": 94600.0, 
+        "num_positive": 1063.0, 
+        "positive_percent": 1.1236786469344608
+      }, 
+      {
+        "feature_name": "matched_account_named_target_account__c", 
+        "feature_value": "True", 
+        "num_items": 5400.0, 
+        "num_positive": 45.0, 
+        "positive_percent": 0.8333333333333334
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "_MISSING", 
+        "num_items": 4899.0, 
+        "num_positive": 67.0, 
+        "positive_percent": 1.3676260461318637
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "ae", 
+        "num_items": 538.0, 
+        "num_positive": 5.0, 
+        "positive_percent": 0.929368029739777
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "at", 
+        "num_items": 379.0, 
+        "num_positive": 5.0, 
+        "positive_percent": 1.3192612137203166
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "au", 
+        "num_items": 3035.0, 
+        "num_positive": 5.0, 
+        "positive_percent": 0.16474464579901152
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "be", 
+        "num_items": 522.0, 
+        "num_positive": 10.0, 
+        "positive_percent": 1.9157088122605364
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "br", 
+        "num_items": 400.0, 
+        "num_positive": 22.0, 
+        "positive_percent": 5.5
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "ch", 
+        "num_items": 880.0, 
+        "num_positive": 43.0, 
+        "positive_percent": 4.886363636363637
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "cl", 
+        "num_items": 236.0, 
+        "num_positive": 3.0, 
+        "positive_percent": 1.271186440677966
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "com", 
+        "num_items": 50016.0, 
+        "num_positive": 356.0, 
+        "positive_percent": 0.7117722328854766
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "cz", 
+        "num_items": 308.0, 
+        "num_positive": 5.0, 
+        "positive_percent": 1.6233766233766234
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "de", 
+        "num_items": 3403.0, 
+        "num_positive": 133.0, 
+        "positive_percent": 3.908316191595651
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "es", 
+        "num_items": 391.0, 
+        "num_positive": 14.0, 
+        "positive_percent": 3.580562659846547
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "eu", 
+        "num_items": 488.0, 
+        "num_positive": 8.0, 
+        "positive_percent": 1.639344262295082
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "fr", 
+        "num_items": 4317.0, 
+        "num_positive": 89.0, 
+        "positive_percent": 2.061616863562659
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "ie", 
+        "num_items": 313.0, 
+        "num_positive": 2.0, 
+        "positive_percent": 0.6389776357827476
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "it", 
+        "num_items": 1135.0, 
+        "num_positive": 12.0, 
+        "positive_percent": 1.0572687224669604
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "law", 
+        "num_items": 307.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "mx", 
+        "num_items": 286.0, 
+        "num_positive": 2.0, 
+        "positive_percent": 0.6993006993006993
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "my", 
+        "num_items": 317.0, 
+        "num_positive": 1.0, 
+        "positive_percent": 0.31545741324921134
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "net", 
+        "num_items": 1026.0, 
+        "num_positive": 21.0, 
+        "positive_percent": 2.046783625730994
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "nl", 
+        "num_items": 1646.0, 
+        "num_positive": 48.0, 
+        "positive_percent": 2.9161603888213854
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "nz", 
+        "num_items": 957.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "org", 
+        "num_items": 840.0, 
+        "num_positive": 13.0, 
+        "positive_percent": 1.5476190476190477
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "other", 
+        "num_items": 4301.0, 
+        "num_positive": 69.0, 
+        "positive_percent": 1.6042780748663101
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "pl", 
+        "num_items": 426.0, 
+        "num_positive": 40.0, 
+        "positive_percent": 9.389671361502348
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "ro", 
+        "num_items": 471.0, 
+        "num_positive": 13.0, 
+        "positive_percent": 2.760084925690021
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "ru", 
+        "num_items": 986.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "sa", 
+        "num_items": 535.0, 
+        "num_positive": 12.0, 
+        "positive_percent": 2.2429906542056073
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "se", 
+        "num_items": 547.0, 
+        "num_positive": 16.0, 
+        "positive_percent": 2.9250457038391224
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "sg", 
+        "num_items": 526.0, 
+        "num_positive": 4.0, 
+        "positive_percent": 0.7604562737642585
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "tr", 
+        "num_items": 815.0, 
+        "num_positive": 19.0, 
+        "positive_percent": 2.331288343558282
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "uk", 
+        "num_items": 12955.0, 
+        "num_positive": 56.0, 
+        "positive_percent": 0.4322655345426476
+      }, 
+      {
+        "feature_name": "email_main_domain", 
+        "feature_value": "za", 
+        "num_items": 1799.0, 
+        "num_positive": 15.0, 
+        "positive_percent": 0.8337965536409117
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "_MISSING", 
+        "num_items": 45084.0, 
+        "num_positive": 573.0, 
+        "positive_percent": 1.2709608730369977
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "at", 
+        "num_items": 318.0, 
+        "num_positive": 4.0, 
+        "positive_percent": 1.2578616352201257
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "au", 
+        "num_items": 2515.0, 
+        "num_positive": 4.0, 
+        "positive_percent": 0.15904572564612326
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "ch", 
+        "num_items": 651.0, 
+        "num_positive": 26.0, 
+        "positive_percent": 3.9938556067588324
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "com", 
+        "num_items": 30167.0, 
+        "num_positive": 168.0, 
+        "positive_percent": 0.5568999237577485
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "de", 
+        "num_items": 1715.0, 
+        "num_positive": 78.0, 
+        "positive_percent": 4.548104956268221
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "fr", 
+        "num_items": 2034.0, 
+        "num_positive": 55.0, 
+        "positive_percent": 2.704031465093412
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "it", 
+        "num_items": 462.0, 
+        "num_positive": 7.0, 
+        "positive_percent": 1.5151515151515151
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "law", 
+        "num_items": 306.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "my", 
+        "num_items": 249.0, 
+        "num_positive": 1.0, 
+        "positive_percent": 0.40160642570281124
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "net", 
+        "num_items": 351.0, 
+        "num_positive": 12.0, 
+        "positive_percent": 3.4188034188034186
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "nl", 
+        "num_items": 471.0, 
+        "num_positive": 22.0, 
+        "positive_percent": 4.670912951167728
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "nz", 
+        "num_items": 889.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "org", 
+        "num_items": 553.0, 
+        "num_positive": 6.0, 
+        "positive_percent": 1.0849909584086799
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "other", 
+        "num_items": 3223.0, 
+        "num_positive": 102.0, 
+        "positive_percent": 3.1647533354017994
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "ru", 
+        "num_items": 845.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "se", 
+        "num_items": 333.0, 
+        "num_positive": 5.0, 
+        "positive_percent": 1.5015015015015014
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "sg", 
+        "num_items": 460.0, 
+        "num_positive": 3.0, 
+        "positive_percent": 0.6521739130434783
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "tr", 
+        "num_items": 202.0, 
+        "num_positive": 9.0, 
+        "positive_percent": 4.455445544554456
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "uk", 
+        "num_items": 7797.0, 
+        "num_positive": 27.0, 
+        "positive_percent": 0.34628703347441325
+      }, 
+      {
+        "feature_name": "company_website_main_domain", 
+        "feature_value": "za", 
+        "num_items": 1375.0, 
+        "num_positive": 6.0, 
+        "positive_percent": 0.43636363636363634
+      }, 
+      {
+        "feature_name": "is_past_sla__c", 
+        "feature_value": "False", 
+        "num_items": 77917.0, 
+        "num_positive": 767.0, 
+        "positive_percent": 0.9843808154831423
+      }, 
+      {
+        "feature_name": "is_past_sla__c", 
+        "feature_value": "True", 
+        "num_items": 22083.0, 
+        "num_positive": 341.0, 
+        "positive_percent": 1.544174251686818
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Banking & Securities-IDC", 
+        "num_items": 7932.0, 
+        "num_positive": 35.0, 
+        "positive_percent": 0.44125063035804335
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Biz/ Professional Services-IDC", 
+        "num_items": 22616.0, 
+        "num_positive": 99.0, 
+        "positive_percent": 0.4377431906614786
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Central Government", 
+        "num_items": 328.0, 
+        "num_positive": 42.0, 
+        "positive_percent": 12.804878048780488
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Comms & Media-IDC", 
+        "num_items": 3342.0, 
+        "num_positive": 35.0, 
+        "positive_percent": 1.0472770795930582
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Construction-IDC", 
+        "num_items": 1784.0, 
+        "num_positive": 14.0, 
+        "positive_percent": 0.7847533632286996
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Fed Gov't-IDC", 
+        "num_items": 1255.0, 
+        "num_positive": 25.0, 
+        "positive_percent": 1.9920318725099602
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Healthcare Providers-IDC", 
+        "num_items": 4237.0, 
+        "num_positive": 34.0, 
+        "positive_percent": 0.80245456691055
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Insurance-IDC", 
+        "num_items": 2026.0, 
+        "num_positive": 17.0, 
+        "positive_percent": 0.8390918065153011
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Manufacturing-IDC", 
+        "num_items": 4600.0, 
+        "num_positive": 49.0, 
+        "positive_percent": 1.065217391304348
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Oil/ Gas/ Energy-IDC", 
+        "num_items": 951.0, 
+        "num_positive": 56.0, 
+        "positive_percent": 5.888538380651945
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Pharma/ Life Sciences-IDC", 
+        "num_items": 1147.0, 
+        "num_positive": 12.0, 
+        "positive_percent": 1.046207497820401
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Retail-IDC", 
+        "num_items": 7794.0, 
+        "num_positive": 25.0, 
+        "positive_percent": 0.32075955863484734
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "SLED (State, Local, Education)-IDC", 
+        "num_items": 5991.0, 
+        "num_positive": 52.0, 
+        "positive_percent": 0.8679686195960608
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Tech HW & SW-IDC", 
+        "num_items": 6547.0, 
+        "num_positive": 196.0, 
+        "positive_percent": 2.993737589735757
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Transportation-IDC", 
+        "num_items": 2813.0, 
+        "num_positive": 24.0, 
+        "positive_percent": 0.8531816565943833
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Utilities-IDC", 
+        "num_items": 1009.0, 
+        "num_positive": 32.0, 
+        "positive_percent": 3.1714568880079286
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "Wholesale-IDC", 
+        "num_items": 2452.0, 
+        "num_positive": 104.0, 
+        "positive_percent": 4.241435562805873
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "_MISSING", 
+        "num_items": 22359.0, 
+        "num_positive": 248.0, 
+        "positive_percent": 1.1091730399391744
+      }, 
+      {
+        "feature_name": "industry", 
+        "feature_value": "other", 
+        "num_items": 817.0, 
+        "num_positive": 9.0, 
+        "positive_percent": 1.1015911872705018
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "App owner", 
+        "num_items": 1846.0, 
+        "num_positive": 1.0, 
+        "positive_percent": 0.05417118093174431
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "BI/AI", 
+        "num_items": 526.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "Cloud / Virtualizati", 
+        "num_items": 580.0, 
+        "num_positive": 33.0, 
+        "positive_percent": 5.689655172413793
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "DBA", 
+        "num_items": 2389.0, 
+        "num_positive": 59.0, 
+        "positive_percent": 2.4696525742988698
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "Head of Storage", 
+        "num_items": 554.0, 
+        "num_positive": 75.0, 
+        "positive_percent": 13.537906137184116
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "IT Architect", 
+        "num_items": 3581.0, 
+        "num_positive": 89.0, 
+        "positive_percent": 2.4853392907009217
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "IT C-Level", 
+        "num_items": 2999.0, 
+        "num_positive": 76.0, 
+        "positive_percent": 2.534178059353118
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "IT Managers / Engine", 
+        "num_items": 31961.0, 
+        "num_positive": 254.0, 
+        "positive_percent": 0.7947185632489596
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "LOB / Other C-Suite", 
+        "num_items": 1962.0, 
+        "num_positive": 43.0, 
+        "positive_percent": 2.1916411824668707
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "No Job Title", 
+        "num_items": 4275.0, 
+        "num_positive": 41.0, 
+        "positive_percent": 0.9590643274853801
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "NonTarget", 
+        "num_items": 16293.0, 
+        "num_positive": 142.0, 
+        "positive_percent": 0.8715399251212177
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "Senior IT", 
+        "num_items": 10625.0, 
+        "num_positive": 118.0, 
+        "positive_percent": 1.1105882352941177
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "Undesirable", 
+        "num_items": 683.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "Unmatched", 
+        "num_items": 21121.0, 
+        "num_positive": 171.0, 
+        "positive_percent": 0.8096207565929644
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "_MISSING", 
+        "num_items": 538.0, 
+        "num_positive": 6.0, 
+        "positive_percent": 1.1152416356877324
+      }, 
+      {
+        "feature_name": "lead_persona__c", 
+        "feature_value": "other", 
+        "num_items": 67.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "leandata_account_type__c", 
+        "feature_value": "Customer", 
+        "num_items": 9063.0, 
+        "num_positive": 51.0, 
+        "positive_percent": 0.5627275736511089
+      }, 
+      {
+        "feature_name": "leandata_account_type__c", 
+        "feature_value": "Distributor", 
+        "num_items": 217.0, 
+        "num_positive": 11.0, 
+        "positive_percent": 5.0691244239631335
+      }, 
+      {
+        "feature_name": "leandata_account_type__c", 
+        "feature_value": "Prospect", 
+        "num_items": 56820.0, 
+        "num_positive": 349.0, 
+        "positive_percent": 0.6142203449489616
+      }, 
+      {
+        "feature_name": "leandata_account_type__c", 
+        "feature_value": "Pure Storage Internal", 
+        "num_items": 373.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "leandata_account_type__c", 
+        "feature_value": "Reseller", 
+        "num_items": 2171.0, 
+        "num_positive": 185.0, 
+        "positive_percent": 8.52141870105942
+      }, 
+      {
+        "feature_name": "leandata_account_type__c", 
+        "feature_value": "Service Provider", 
+        "num_items": 1767.0, 
+        "num_positive": 34.0, 
+        "positive_percent": 1.9241652518392756
+      }, 
+      {
+        "feature_name": "leandata_account_type__c", 
+        "feature_value": "Systems Integrator", 
+        "num_items": 744.0, 
+        "num_positive": 5.0, 
+        "positive_percent": 0.6720430107526881
+      }, 
+      {
+        "feature_name": "leandata_account_type__c", 
+        "feature_value": "_MISSING", 
+        "num_items": 28658.0, 
+        "num_positive": 473.0, 
+        "positive_percent": 1.6504989880661596
+      }, 
+      {
+        "feature_name": "leandata_account_type__c", 
+        "feature_value": "other", 
+        "num_items": 187.0, 
+        "num_positive": 0.0, 
+        "positive_percent": 0.0
+      }, 
+      {
+        "feature_name": "email_matches_name", 
+        "feature_value": 0.0, 
+        "num_items": 8572.0, 
+        "num_positive": 95.0, 
+        "positive_percent": 1.108259449370042
+      }, 
+      {
+        "feature_name": "email_matches_name", 
+        "feature_value": 1.0, 
+        "num_items": 86529.0, 
+        "num_positive": 946.0, 
+        "positive_percent": 1.0932750869650638
+      }, 
+      {
+        "feature_name": "email_matches_name", 
+        "feature_value": "_MISSING", 
+        "num_items": 4899.0, 
+        "num_positive": 67.0, 
+        "positive_percent": 1.3676260461318637
+      }
+    ], 
+    "timing": {
+      "preprocess": 354.0472230911255, 
+      "rows_per_sec": 227.5495485536385, 
+      "total": 439.4647259712219, 
+      "train": 85.41750288009644
+    }, 
+    "training_file_stats": {
+      "cols": 99, 
+      "n_groups": 100000, 
+      "n_neg": 98892, 
+      "n_pos": 1108, 
+      "rows": 100000
+    }, 
+    "version": "0.2.4.1"
+  }
+}
